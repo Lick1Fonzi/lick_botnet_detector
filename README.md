@@ -4,10 +4,10 @@ Simple RandomForest based Network Intrusion Detection System (NIDS), developed f
 Trained on CTU13-Dataset Rbot malware:
 https://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-42/detailed-bidirectional-flow-labels/capture20110810.binetflow
 
-#setup
+## setup
 Clone repo, create data/ and data/raw folders
 
-#Run preprocessing on raw binetflow data (bidirectional flaw network data)
+## Run preprocessing on raw binetflow data (bidirectional flaw network data)
 '''
 python preprocess.py
 '''
